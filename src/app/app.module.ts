@@ -8,18 +8,20 @@ import {
   MatOptionModule,
   MatSelectModule,
   MatToolbarModule
-} from "@angular/material";
+} from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { RegisterComponent } from './register/register.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { UnderConstructionComponent } from './under-construction/under-construction.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LogInComponent,
-    RegisterComponent
+    RegisterComponent,
+    UnderConstructionComponent
   ],
   imports: [
     BrowserModule,
