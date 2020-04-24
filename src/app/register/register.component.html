@@ -16,18 +16,18 @@
         </mat-form-field>
 
         <mat-form-field class="example-full-width">
-          <input matInput placeholder="Password">
+          <input matInput placeholder="Password" type="Password">
         </mat-form-field>
 
         <mat-form-field class="example-full-width">
-          <mat-label>Choose a role...</mat-label>
+          <mat-label>Choose a Your Field Study...</mat-label>
           <mat-select [(value)]="selected">
-            <mat-option [value]="roles" *ngFor="let roles of Roles">{{roles}}
+            <mat-option [value]="course" *ngFor="let course of FieldOfStudy">{{course}}
             </mat-option>
           </mat-select>
         </mat-form-field>
 
-      </mat-card-content>
+        </mat-card-content>
 
       <button mat-stroked-button color="accent" class="btn-block">Register</button>
 
